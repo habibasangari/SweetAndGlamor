@@ -1,0 +1,211 @@
+/*body*/
+body{
+  margin: 0;
+  padding: 0;
+  background-color: aquamarine;
+}
+
+/*global*/
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.button_1{
+  height: 38px;
+  background: rgba(190, 24, 157, 0.452);
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+.dark {
+  padding: 15px;
+  background: burlywood;
+  color: blue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+/* header */
+header {
+  background: white;
+  color: blue;
+  padding-top: 30px;
+  min-height: 50px;
+  border-bottom: blue 5px solid;
+}
+
+header a {
+  color: blue;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header nav {
+  float: right;
+  margin-top: 25px;
+}
+
+header .current a {
+  color: rgb(100, 52, 0);
+  font-weight: bold;
+}
+
+header a:hover{
+  color: rgba(255, 192, 228, 0.852);
+  font-weight: bold;
+}
+
+/* showcase */
+#showcase {
+  min-height: 1000px;
+  background:url("newmaroon.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: blueviolet;
+  font-weight: bold;
+}
+
+#showcase h1{
+  margin-top: 800px;
+  font-size: 55px;
+  margin-bottom: 50px;
+}
+
+#showcase p{
+  font-size: 20px;
+}
+
+
+/* newsletter */
+#newsletter {
+  padding: 70px;
+  color: cornflowerblue;
+  background-color: palevioletred;
+}
+#newsletter h1{
+  float: left;
+}
+#newsletter form{
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+  padding: 4px;
+  height: 36px;
+  width: 250px;
+}
+
+/* boxes */
+#boxes{
+  margin-top: 20px;
+}
+
+#boxes {
+  float: left;
+  text-align: center;
+  width: 30%; 
+  padding: 10px;
+}
+
+/* sidebar */
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea {
+  width: 90%;
+  padding: 5px;
+}
+
+/* main-col */
+article#main-col {
+  float: left;
+  width: 65%;
+}
+
+/* services */
+ul#services li {
+  list-style: none;
+  padding: 20px;
+  border: purple solid 3px;
+  margin-top: 5px;
+  color: cornflowerblue;
+  background: yellow;
+} 
+
+footer{
+  padding: 20px;
+  margin-top: 45%;
+  color:white ;
+  background: rgba(0, 128, 19, 0.566);
+  text-align: center;
+}
+
+/* media queries */
+@media(max-width: 768px) {
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes,
+  article#main-col
+  aside#sidebar {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+}
+  header{
+    padding-bottom: 20px;
+  }
+
+  #showcase h1 {
+    margin-top: 40px;
+  }
+
+  #newsletter button, .quote button {
+    display: block;
+    width: 100%;
+
+  }
+
+  #newsletter form input[type="email"], .quote input, .quote textarea {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  
+
+
+
+
+
+
+
+
+
